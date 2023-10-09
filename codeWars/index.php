@@ -206,4 +206,9 @@
 //   print_r($arr);
 // };
 // invert([1,2,3])
+
+function fixTheMeerkat($arr) {
+  print_r (array_reverse($arr));
+};
+fixTheMeerkat(["head", "body", "tail"]);
 ?>
