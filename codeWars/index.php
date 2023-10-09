@@ -142,4 +142,68 @@
 // };
 // find_average([1, 2, 3, 4]);
 
+
+#string to array 
+// function string_to_array($s){
+//     print_r (explode (" ", $s));
+// };
+// string_to_array ("salam necesiz");
+
+#findNeedle
+// function findNeedle($haystack) {
+//     $value = array_search("needle", $haystack);
+//     echo "found the needle at position $value";
+// };
+// findNeedle(["hay", "junk", "hay", "hay", "moreJunk", "needle", "randomJunk"]);
+
+#array to string
+// function smash(array $words) {
+//   $sum = "";
+//   foreach($words as $word){
+//     $sum = $sum." ". $word;
+//   }
+//   var_dump (trim($sum));
+// };
+// smash(['salam', 'necesiz', 'ne']);
+
+#average baxx
+// function get_average($a) {
+//   $sum = 0;
+//   $average = 0;
+//   foreach($a as $numbers){
+//     $sum += $numbers;
+//     $average = $sum / (count($a));
+//   }
+//   var_dump  (floor($average));
+// };
+// get_average( [1, 1, 1, 1, 1, 1, 1, 2]);
+
+#factorial
+// function grow($a) {
+//   $factorial = 1;
+//   foreach($a as $val){
+//     $factorial *= $val;
+//   };
+//   var_dump ($factorial);
+// };
+// grow([4, 1, 1, 1, 4]);
+
+// function invert($a){
+//   {
+//     return ($a * (-1));
+//   }
+// }
+// $a = [1, 2, 3, -4, -5];
+// $b = array_map ('invert', $a);
+// print_r($b);
+
+// ya da
+// function invert($a){
+//   $arr = array();
+//   for($i = 0 ; $i< count($a); $i++){
+//     $arr[] = ($a[$i]) * (-1);
+//   }
+//   print_r($arr);
+// };
+// invert([1,2,3])
 ?>
