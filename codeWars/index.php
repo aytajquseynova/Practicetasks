@@ -55,19 +55,7 @@
 // };
 // find([2,3,4]);
 
-#countPositivesSumNegatives
-// function countPositivesSumNegatives(array $input) {
-//     $negativSum = 0;
-//     $positiveCount = 0;
-//     for($i = 0 ; $i < count($input); $i++){
-//         if($input[$i] > 0){
-//             $positiveCount++;
-//         }
-//         elseif($input[$i] < 0){
-//            $negativSum += $input[$i];
-//         }
-//     }
-//     var_dump ([$positiveCount, $negativSum]);
+
     
 // };
 // countPositivesSumNegatives([6, 7, 8, 9, -5]);
@@ -143,12 +131,6 @@
 // find_average([1, 2, 3, 4]);
 
 
-#string to array 
-// function string_to_array($s){
-//     print_r (explode (" ", $s));
-// };
-// string_to_array ("salam necesiz");
-
 #findNeedle
 // function findNeedle($haystack) {
 //     $value = array_search("needle", $haystack);
@@ -188,6 +170,60 @@
 // };
 // grow([4, 1, 1, 1, 4]);
 
+
+
+// function fixTheMeerkat($arr) {
+//   print_r (array_reverse($arr));
+// };
+// fixTheMeerkat(["head", "body", "tail"]);
+
+# monkeycount
+
+// function monkeyCount($n) {
+//   $count = 0;
+//   for($i = 0; $i< count($n); $i++){
+//     if($n[$i] > 0){
+//      $count++;
+//      break;
+//     }
+//     else {
+//       echo "1-den boyuk eded daxil edin";
+//     }
+//   }
+//   var_dump ($count);
+// }
+// monkeyCount([0, 2, 3]);
+
+#10.10 
+
+#1
+#countPositivesSumNegatives
+// function countPositivesSumNegatives(array $input) {
+//     $negativSum = 0;
+//     $positiveCount = 0;
+//     for($i = 0 ; $i < count($input); $i++){
+//         if($input[$i] > 0){
+//             $positiveCount++;
+//         }
+//         elseif($input[$i] < 0){
+//            $negativSum += $input[$i];
+//         }
+//     }
+//     var_dump ([$positiveCount, $negativSum]);
+
+#2 
+// function even_or_odd(int $n){
+//   if($n % 2 == 0){
+//     echo "Even";
+//   }
+//   elseif($n % 2 != 0){
+//     echo "Odd";
+//   }
+// };
+// even_or_odd(0);
+
+#3 return negative
+
 // function invert($a){
 //   {
 //     return ($a * (-1));
@@ -207,8 +243,46 @@
 // };
 // invert([1,2,3])
 
-function fixTheMeerkat($arr) {
-  print_r (array_reverse($arr));
-};
-fixTheMeerkat(["head", "body", "tail"]);
+
+#5 array sum
+// function sum(array $a){
+//   print_r (array_sum($a));
+// };
+// sum([]);
+
+#6 is the string uppercase
+
+// function is_uppercase($str){
+//   $upper = strtoupper($str);
+
+//   if($str === $upper){
+//     var_dump (true);
+//   }
+//   else{
+//     var_dump (false);
+//   }
+// };
+// is_uppercase('AYTAc');
+
+#7 string to array 
+// function string_to_array($s){
+//     print_r (explode (" ", $s));
+// };
+// string_to_array ("salam necesiz");
+
+#8 
+// function repeatStr($n,  $str)
+// {
+//   $retstr = "";
+//   for($i = 0; $i < $n; $i++){
+//     $retstr  .=$str;
+//   }
+
+//   return $retstr;
+  
+// };
+// echo repeatStr(3,'@');
+
+
+
 ?>
