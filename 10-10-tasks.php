@@ -1,27 +1,9 @@
 <?php
 #9 
-// function sirala($star){
-//     for ($i = 1; $i <= 4; $i++){
-//     // var_dump ($i);
-//     // echo "<br>";
-//     for($j = 1; $j <= $i; $j++){
-//         var_dump ($j);
-//         echo "<br>";
-//     }
-// }
-// };
-// sirala("*");
 
 
-// $str = "w3resource";
 
-// $array = str_split($str);
-// foreach($array as $val){
-//     $newArr= str_split($val);
-//     if($val === "r"){
-//         print_r (($newArr));
-//     }
-// }
+
 
 
 
@@ -151,15 +133,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
 // for($i = 0; $i<21; $i++) {
 //     if($i < 5) {
 //         echo "*";
@@ -173,25 +146,6 @@
 //         echo "*";
 //     }
 // }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
