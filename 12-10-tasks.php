@@ -181,7 +181,7 @@ $users = [
     
     ['name' => 'Fidan',
     'surname' =>'Isayeva',
-    'job' => 'BackEnd'],
+    'job' => 'BackEnddddddd'],
 
      ['name' => 'Ali',
     'surname' =>'Huseynli',
@@ -189,7 +189,7 @@ $users = [
 ];
 echo"<pre>";
 usort($users, function($item1, $item2) {
-    return strcmp($item1['job'], $item2['job']);
+    return ($item1['job'] <=> $item2['job']);
 });
 print_r($users);echo "</pre>";
 
