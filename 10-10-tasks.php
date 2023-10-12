@@ -106,26 +106,35 @@
 
 
 #15 BMI
-// function bmi($weight, $height){
-//     $calcHeight = ($height / 100);
-//     $index = $weight /( $calcHeight * $calcHeight);
-//     if(($index < 18.5) && ($index >= 0)){
-//         echo "az ceki";
-//     }
-//     else if(($index >= 18.5) && ($index < 25.0)){
-//         echo "normal";
-//     }
-//     else if(($index >= 25.0) && ($index < 30.0)){
-//         echo "artiq ceki";
-//     }
-//     else if($index >= 30){
-//         echo "obez";
-//     }
-//     else {
-//         echo "unknown info";
-//     }
-// }
-// bmi(55, 161);
+function bmi($weight, $height){
+
+    if (!is_numeric($weight) || !is_numeric($height)) {
+        echo "Zehmet olmasa eded daxil edin";
+        return;
+    $weight = (float)$weight; 
+    $height = (float)$height;
+
+    $calcHeight = ($height / 100);
+    $index = $weight / ($calcHeight * $calcHeight);
+    
+    if ($index < 18.5 && $index >= 0) {
+        echo "az ceki";
+    }
+    else if ($index >= 18.5 && $index < 25.0) {
+        echo "normal";
+    }
+    else if ($index >= 25.0 && $index < 30.0) {
+        echo "artiq ceki";
+    }
+    else if ($index >= 30) {
+        echo "obez";
+    }  
+     
+    }
+
+}
+
+bmi('ssss', "gj"); 
 
 
 
