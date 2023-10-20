@@ -285,4 +285,11 @@
 
 
 
+#duck duck goose
+// duck_duck_goose([a, b, c, d], 4) should return d.name
+function duck_duck_goose($players, $goose) {
+  return $players[($goose-1) % count($players)]['name'];
+};
+duck_duck_goose([a, b, c, d],4);
+
 ?>
