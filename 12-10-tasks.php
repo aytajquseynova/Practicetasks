@@ -188,9 +188,10 @@ $users = [
     'job' => 'BackEnd']
 ];
 echo"<pre>";
-usort($users, function($item1, $item2) {
-    return ($item1['job'] <=> $item2['job']);
-});
+// usort($users, function($item1, $item2) {
+//     return ($item1['job'] <=> $item2['job']);
+// });
+usort ($users , fn($item1, $item2) =>$item1['job'] <=> $item2['job'] );
 print_r($users);echo "</pre>";
 
 ?>
