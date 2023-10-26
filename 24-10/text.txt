@@ -1,0 +1,8 @@
+login php - form (email, password) post 
+index php -, 
+server php - el ile massiv yaradiriq,
+ name, surname, password, email 
+ email, password her  hansi biri ile uygun gelirse, uygun gelirse, ad soyadini yaz
+ salam ,.... yazulanda cookie yaranir.
+  bu cookie yoxdusa evvelce daxil olmallisiz yazilmalidi. indexde 
+ eger cookie varsa login sehifesinde yazilmalidi ki evvelce cixis etmelisiz
